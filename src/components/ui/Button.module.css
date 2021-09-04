@@ -1,0 +1,23 @@
+.btn{
+	background-color:brown ;
+	border: 2px solid brown;
+	border-radius: 30px;
+	padding: 7px 25px;
+	color: white;
+	cursor: pointer;
+}
+
+.outline{
+	background-color: white;
+	color: brown;
+}
+
+.square{
+	border-radius: 5px;
+}
+.disabled{
+	background-color: gray;
+	border: 2px solid darkgray;
+	color: rgb(255,255,255,0.5);
+	cursor: default;
+}
