@@ -1,0 +1,17 @@
+.menu_list{
+	animation-name: slideFromBottom;
+	animation-duration: 1s;
+	/*animation-direction: alternate;
+	animation-iteration-count: infinite;*/
+}
+
+@keyframes slideFromBottom{
+	from{
+		margin-top: 100px;
+		opacity: 0;
+	}
+	to{
+		margin-top: 0;
+		opacity: 1;
+	}
+}
