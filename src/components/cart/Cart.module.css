@@ -1,0 +1,12 @@
+.total{
+	display: flex;
+	justify-content: space-between;
+	font-size: 22px;
+	font-weight: bold;
+	margin: 10px 0;
+}
+.actions{
+	display: flex;
+	justify-content: flex-end;
+	column-gap: 5px;
+}
