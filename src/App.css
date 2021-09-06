@@ -1,6 +1,6 @@
 .App {
   box-sizing: border-box;
-  height: 100vh;
+  min-height: 100vh;
   background-color: #282828;
   display: flex;
   flex-direction: column;
