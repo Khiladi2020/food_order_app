@@ -8,7 +8,10 @@ const MenuItem = ({ id, title, subtitle, price, count, onAdd }) => {
 	const [amount, setAmount] = useState(0);
 
 	const handleAdd = () => {
-		if(!amount) return;
+		if(!amount || +amount <= 0){
+			console.log('Invalid Amount for',title)
+			return;
+		}
 		onAdd({id,title,subtitle,price,count: +amount });
 	};
 
