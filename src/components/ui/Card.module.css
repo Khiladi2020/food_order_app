@@ -4,5 +4,13 @@
 	border-radius: 10px;
 	background-color: white;
 	padding: 10px;
+	box-shadow: 0 2px 8px rgb(0,0,0,0.25);
 	box-sizing: border-box;
+}
+.dark{
+	background-color: #383838;
+	color: white;
+}
+.center{
+	text-align: center;
 }
